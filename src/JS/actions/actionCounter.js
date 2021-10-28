@@ -1,19 +1,21 @@
+import { DECREMANT, INCREMANT, RESET } from "../constants/actionTypes"
+
 
 
 export const increment = () => {
     return {
-        type: "INCREMENT"
+        type: INCREMANT
     }
 }
 
 export const decrement =() =>{
     return {
-        type: "DECREMENT"
+        type: DECREMANT
     }
 }
 
 export const reset =() =>{
     return {
-        type: "RESET"
+        type: RESET
     }
 }
